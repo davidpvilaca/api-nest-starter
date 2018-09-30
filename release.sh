@@ -47,7 +47,7 @@ git add CHANGELOG.md &&
 version=$(json -f package.json version) &&
 echo "version: ${3:-$version}" &&
 echo "commit changelog" &&
-git commit -m"docs(CHANGELOG): v$version" &&
+git commit -m "docs(changelog): v$version" &&
 echo "restore safe package.json" &&
 mv -f _package.json package.json &&
 mv -f _package-lock.json package-lock.json &&
