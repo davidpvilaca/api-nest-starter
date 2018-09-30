@@ -1,5 +1,7 @@
 # API NEST STARTER
 
+[![CircleCI](https://circleci.com/gh/davidpvilaca/api-nest-starter.svg?style=shield&circle-token=339c2a2d8ec08e4de36981ad0121f0ed3a155b7a)](https://circleci.com/gh/davidpvilaca/api-nest-starter)
+
 ## Introduction
 
 Start an API using NestJS framework with all the tedious commit lint settings and so on.
