@@ -18,11 +18,11 @@ rimraf node_modules &&
 echo "git checkout develop" &&
 git checkout develop &&
 echo "git pull --rebase origin develop" &&
-git pull --rebase &&
+git pull --rebase origin develop &&
 echo "git checkout master" &&
 git checkout master &&
 echo "git pull --rebase origin master" &&
-git pull --rebase &&
+git pull --rebase origin master &&
 echo "git rebase develop" &&
 git rebase develop &&
 echo "yarn install" &&
