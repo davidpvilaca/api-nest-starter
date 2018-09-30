@@ -10,7 +10,7 @@ Start an API using NestJS framework with all the tedious commit lint settings an
 
 ### Prerequisites
 
-* [NodeJS (^v8.11.0)](https://nodejs.org/en/)
+* [NodeJS (^v10.11.0)](https://nodejs.org/en/)
 * [Yarn (^v1.6.0)](https://yarnpkg.com/en) (preferably) or Npm (^v6.0.0)
 * [Nest CLI](https://docs.nestjs.com/cli/overview) (optional)
 
