@@ -1,6 +1,8 @@
 # API NEST STARTER
 
 [![CircleCI](https://circleci.com/gh/davidpvilaca/api-nest-starter.svg?style=shield&circle-token=339c2a2d8ec08e4de36981ad0121f0ed3a155b7a)](https://circleci.com/gh/davidpvilaca/api-nest-starter)
+[![dependencies Status](https://david-dm.org/davidpvilaca/api-nest-starter/status.svg)](https://david-dm.org/davidpvilaca/api-nest-starter)
+[![NodeJS](https://img.shields.io/badge/node-v10.11.0-brightgreen.svg)](#prerequisites)
 
 ## Introduction
 
