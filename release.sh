@@ -15,6 +15,7 @@
 
 echo "clean node_modules" &&
 rimraf node_modules &&
+rimraf package-lock.json &&
 echo "git checkout develop" &&
 git checkout develop &&
 echo "git pull --rebase origin develop" &&
@@ -35,7 +36,6 @@ echo "e2e test" &&
 yarn test:e2e &&
 echo "save safe package.json" &&
 cp package.json _package.json &&
-cp package-lock.json _package-lock.json &&
 preset=$(conventional-commits-detector) &&
 echo "preset: ${2:-$preset}" &&
 bump=$(conventional-recommended-bump -p ${2:-$preset}) &&
@@ -50,7 +50,6 @@ echo "commit changelog" &&
 git commit -m "docs(changelog): v$version" &&
 echo "restore safe package.json" &&
 mv -f _package.json package.json &&
-mv -f _package-lock.json package-lock.json &&
 echo "commit and push tag" &&
 npm version ${1:-$bump} -m "chore(release): v%s" &&
 git push --follow-tags &&
