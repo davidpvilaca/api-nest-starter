@@ -1,3 +1,13 @@
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/davidpvilaca/api-nest-starter/compare/v0.1.0...v0.1.1) (2018-11-10)
+
+
+### Bug Fixes
+
+* upgrade depencies and resolve vulnerability (merge@1.2.0) ([0a23a45](https://github.com/davidpvilaca/api-nest-starter/commit/0a23a45))
+
+
+
 <a name="0.1.0"></a>
 # 0.1.0 (2018-09-30)
 
