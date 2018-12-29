@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/davidpvilaca/api-nest-starter.svg?style=shield&circle-token=339c2a2d8ec08e4de36981ad0121f0ed3a155b7a)](https://circleci.com/gh/davidpvilaca/api-nest-starter)
 [![dependencies Status](https://david-dm.org/davidpvilaca/api-nest-starter/status.svg)](https://david-dm.org/davidpvilaca/api-nest-starter)
-[![NodeJS](https://img.shields.io/badge/node-v10.11.0-brightgreen.svg)](#prerequisites)
+[![NodeJS](https://img.shields.io/badge/node-v10.12.0-brightgreen.svg)](#prerequisites)
 
 ## Introduction
 
@@ -10,8 +10,8 @@ Start an API using NestJS framework with all the tedious commit lint settings an
 
 ### Prerequisites
 
-* [NodeJS (^v10.11.0)](https://nodejs.org/en/)
-* [Yarn (^v1.6.0)](https://yarnpkg.com/en) (preferably) or Npm (^v6.0.0)
+* [NodeJS (^v10.12.0)](https://nodejs.org/en/)
+* [Yarn (^v1.10.0)](https://yarnpkg.com/en) (preferably) or Npm (^v6.4.0)
 * [Nest CLI](https://docs.nestjs.com/cli/overview) (optional)
 
 ## Getting Started
