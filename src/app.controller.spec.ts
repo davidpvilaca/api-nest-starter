@@ -18,4 +18,11 @@ describe('AppController', () => {
       expect(appController.root()).resolves.toBe('Hello World!');
     });
   });
+
+  describe('ping', () => {
+    it('should return "pong"', () => {
+      const appController = app.get<AppController>(AppController);
+      expect(appController.ping()).toBe('pong');
+    });
+  });
 });
