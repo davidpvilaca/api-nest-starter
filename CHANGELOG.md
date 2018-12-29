@@ -1,3 +1,13 @@
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/davidpvilaca/api-nest-starter/compare/v0.1.1...v0.2.0) (2018-12-29)
+
+
+### Features
+
+* add ping router ([daddf0c](https://github.com/davidpvilaca/api-nest-starter/commit/daddf0c))
+
+
+
 <a name="0.1.1"></a>
 ## [0.1.1](https://github.com/davidpvilaca/api-nest-starter/compare/v0.1.0...v0.1.1) (2018-11-10)
 
