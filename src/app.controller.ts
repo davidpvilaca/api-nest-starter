@@ -1,4 +1,4 @@
-import { Controller, Get } from '@nestjs/common';
+import { All, Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
 /**
@@ -10,8 +10,7 @@ import { AppService } from './app.service';
  */
 @Controller()
 export class AppController {
-
-  constructor(private readonly appService: AppService) { }
+  constructor(private readonly appService: AppService) {}
 
   @Get()
   async root(): Promise<string> {
@@ -19,4 +18,8 @@ export class AppController {
     return rootMessage;
   }
 
+  @All('ping')
+  ping(): string {
+    return 'pong';
+  }
 }
