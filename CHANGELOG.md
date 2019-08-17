@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/davidpvilaca/api-nest-starter/compare/v0.2.0...v0.3.0) (2019-08-17)
+
+
+### Features
+
+* upgrade to nestjs v6 ([2e21234](https://github.com/davidpvilaca/api-nest-starter/commit/2e21234))
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/davidpvilaca/api-nest-starter/compare/v0.1.1...v0.2.0) (2018-12-29)
 
