@@ -1,9 +1,9 @@
 # Create release script
 #
 # prerequisites:
-# `sudo yarn global add rimraf conventional-recommended-bump conventional-changelog-cli conventional-github-releaser conventional-commits-detector json`
+# `yarn global add rimraf conventional-recommended-bump conventional-changelog-cli conventional-github-releaser conventional-commits-detector conventional-changelog-angular json`
 # or
-# `sudo npm i -g rimraf conventional-recommended-bump conventional-changelog-cli conventional-github-releaser conventional-commits-detector json`
+# `npm i -g rimraf conventional-recommended-bump conventional-changelog-cli conventional-github-releaser conventional-commits-detector conventional-changelog-angular json`
 #
 # `np` with optional argument `patch`/`minor`/`major`/`<version>`
 # defaults to conventional-recommended-bump
