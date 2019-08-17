@@ -1,3 +1,12 @@
+## [0.3.1](https://github.com/davidpvilaca/api-nest-starter/compare/v0.3.0...v0.3.1) (2019-08-17)
+
+
+### Bug Fixes
+
+* tslint spec ([e47b400](https://github.com/davidpvilaca/api-nest-starter/commit/e47b400))
+
+
+
 # [0.3.0](https://github.com/davidpvilaca/api-nest-starter/compare/v0.2.0...v0.3.0) (2019-08-17)
 
 
