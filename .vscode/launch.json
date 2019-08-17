@@ -7,14 +7,8 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug",
-      "program": "${workspaceFolder}/main.js"
-    },
-    {
-      "type": "node",
-      "request": "launch",
       "name": "Build & Debug",
-      "program": "${workspaceFolder}/src/main.ts",
+      "program": "${workspaceFolder}/dist/main.js",
       "preLaunchTask": "tsc"
     }
   ]

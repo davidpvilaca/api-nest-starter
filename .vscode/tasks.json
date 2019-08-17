@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "identifier": "watch",
+      "label": "watch",
       "type": "typescript",
       "tsconfig": "tsconfig.json",
       "option": "watch",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "identifier": "tsc",
+      "label": "tsc",
       "type": "typescript",
       "tsconfig": "tsconfig.json",
       "problemMatcher": [

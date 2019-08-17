@@ -10,9 +10,6 @@
   "parserOptions": {
     "sourceType": "module"
   },
-  "rulesDirectory": [
-    "node_modules/codelyzer"
-  ],
   "rules": {
     "no-unused-variable": false,
     "max-line-length": [

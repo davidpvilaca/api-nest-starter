@@ -1,17 +1,15 @@
 {
   "compileOnSave": false,
-  "include": [
-    "src/**/*"
-  ],
   "compilerOptions": {
     "outDir": "./dist",
-    "baseUrl": "src",
+    "baseUrl": "./",
     "sourceMap": true,
-    "declaration": false,
+    "declaration": true,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es6",
+    "incremental": true,
+    "target": "es2017",
     "module": "commonjs",
     "typeRoots": [
       "node_modules/@types"
@@ -35,9 +33,5 @@
     "strictNullChecks": true,
     "skipDefaultLibCheck": true,
     "noLib": false
-  },
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts"
-  ]
+  }
 }
